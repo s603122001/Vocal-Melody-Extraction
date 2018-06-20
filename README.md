@@ -3,7 +3,7 @@
 
 This repository includes the source code of the melody extraction algorithm from:
 
-Wei-Tsung Lu and Li Su, “Transferring the Style of Homophonic Music Using Recurrent Neural Networks and Autoregressive Model,” International Society of Music Information Retrieval Conference (ISMIR), September 2018.
+Wei-Tsung Lu and Li Su, “Vocal melody extraction with semantic segmentation and audio-symbolic domain transfer learning,” International Society of Music Information Retrieval Conference (ISMIR), September 2018.
 
 ### Dependencies
 
