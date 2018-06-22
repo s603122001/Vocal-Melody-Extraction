@@ -35,7 +35,7 @@ optional arguments:
 License
 ----
 
-BSD
+MIT
 
 
 
