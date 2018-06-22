@@ -30,7 +30,7 @@ optional arguments:
 
 ### Pretrained Models
 
-Click [here] to download 3 pretrained models.
+Click [here] to download the pretrained models.
 
 ### Todos
 
