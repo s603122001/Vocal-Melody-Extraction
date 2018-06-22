@@ -24,7 +24,7 @@ required arguments:
 
 optional arguments:
   -h
-  -m  model_name     path to existing model (default = "transfer_audio_directly" )
+  -m  model_name     path to existing model (default = "Seg" )
   -i  input_file     path to input file (default = "train01.wav" )
 ```
 
