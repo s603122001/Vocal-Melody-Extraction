@@ -15,7 +15,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-m', '--model_name',
                         help = 'path to existing model (default: %(default)s',
-                        type = str, default = 'transfer_audio_directly')
+                        type = str, default = 'Seg')
     parser.add_argument('-i', '--input_file',
                         help='path to input file (default: %(default)s',
                         type=str, default='train01.wav')
