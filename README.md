@@ -15,10 +15,22 @@ This repository requires following packages:
 - keras
 - mido
 
+### Usage
+
+```
+usage: VocalMelodyExtraction.py [-h] [-m model_name] [-i input_file]
+                                            
+required arguments:
+
+optional arguments:
+  -h
+  -m  model_name     path to existing model (default = "transfer_audio_directly" )
+  -i  input_file     path to input file (defaule = "train01.wav" )
+```
 
 ### Todos
 
- - 
+ - Add codes for training phase
 
 License
 ----
