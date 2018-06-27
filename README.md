@@ -24,8 +24,10 @@ required arguments:
 
 optional arguments:
   -h
+  -p 
   -m  model_name     path to existing model (default = "Seg" )
   -i  input_file     path to input file (default = "train01.wav" )
+  
 ```
 
 ### Pretrained Models
@@ -34,7 +36,8 @@ Click [here] to download the pretrained models.
 
 ### Todos
 
- - Add codes for training phase
+ - Add codes for symbolic model training
+ - Data set handling
 
 License
 ----
