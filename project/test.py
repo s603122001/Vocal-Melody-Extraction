@@ -23,10 +23,11 @@ def generation_prog(model,
 
     return probas
 
+
 def inference(feature,
               model,
-              timestep = TIMESTEP,
-              batch_size = 10,
+              timestep=TIMESTEP,
+              batch_size=10,
               feature_num_12=128,
               feature_num_48=384,
               channel=1):
