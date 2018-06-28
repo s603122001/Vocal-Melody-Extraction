@@ -209,8 +209,7 @@ def main():
 
         songs_label = datasets_importer(args.input_file_label, 'txt')
         songs_label = np.sort(songs_label)
-
-
+        
         #make dataset
 
         make_dataset_audio(songs, songs_label, args.output_file)
