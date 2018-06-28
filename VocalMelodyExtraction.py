@@ -33,20 +33,20 @@ def main():
                         type=str, default='model_symbolic')
 
     parser.add_argument('-w', '--window_width',
-                        help='width of the input feature(default: %(default)s',
+                        help='width of the input feature (default: %(default)s',
                         type=int, default=128)
     parser.add_argument('-b', '--batch_size_train',
-                        help='batch size(default: %(default)s',
+                        help='batch size during training (default: %(default)s',
                         type=int, default=12)
     parser.add_argument('-e', '--epoch',
-                        help='number of epoch(default: %(default)s',
+                        help='number of epoch (default: %(default)s',
                         type=int, default=5)
     parser.add_argument('-n', '--steps',
-                        help='number of step per epoch(default: %(default)s',
+                        help='number of step per epoch (default: %(default)s',
                         type=int, default=6000)
 
     parser.add_argument('-o', '--output_model_name',
-                        help='name of the output model(default: %(default)s',
+                        help='name of the output model (default: %(default)s',
                         type=str, default="out")
 
     #arguments for testing
@@ -57,7 +57,7 @@ def main():
                         help='path to input file (default: %(default)s',
                         type=str, default='train01.wav')
     parser.add_argument('-bb', '--batch_size_test',
-                        help='path to input file (default: %(default)s',
+                        help='batch size during testing (default: %(default)s',
                         type=int, default=10)
 
     args = parser.parse_args()
