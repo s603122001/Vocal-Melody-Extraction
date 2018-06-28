@@ -97,7 +97,7 @@ def generator_audio(batch_size, timesteps, dataset, dataset_label,
             labels = []
 
 
-def train_audio(model, epoch, steps, batch_size, timesteps, dataset_path, label_path):
+def train_audio(model, timesteps, dataset_path, label_path, epoch=5, steps=6000, batch_size=12):
     generator_train = (({'input_score_48': features_48,
                          'input_score_12': features_12
                          },
@@ -127,3 +127,6 @@ def train_audio(model, epoch, steps, batch_size, timesteps, dataset_path, label_
                         max_queue_size=100,
                         workers=1,
                         )
+
+
+    return model
