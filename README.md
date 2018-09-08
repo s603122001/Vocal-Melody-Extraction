@@ -5,6 +5,8 @@ This repository includes the source code of the melody extraction algorithm from
 
 Wei-Tsung Lu and Li Su, “Vocal melody extraction with semantic segmentation and audio-symbolic domain transfer learning,” International Society of Music Information Retrieval Conference (ISMIR), September 2018.
 
+Wei-Tsung Lu and Li Su, "Deep Learning Models for Melody Perception: An Investigation on Symbolic Music Data," Proc. Asia Pacific Signal and Infor. Proc. Asso. Annual Summit and Conf. (APSIPA ASC), November 2018.
+
 ### Dependencies
 
 This repository requires following packages:
